@@ -5,6 +5,8 @@ Required: foundry, jq
 
 Steps to reproduce the results:
 
+Stage 1
+```bash
 cd stage_1
 ./stage_1.sh
 Output:
@@ -21,7 +23,10 @@ Message:          Gateway.fm
 Hex Message:      0x476174657761792e666d
 Precompile Hash:  0x2b371301d100e168ccc4e6dad8f3428bf32bbc5ad9ddd9d7419da76eaf73d17a
 Expected Hash:    2b371301d100e168ccc4e6dad8f3428bf32bbc5ad9ddd9d7419da76eaf73d17a
+```
 
+Stage 2
+```bash
 cd ../stage_2
 ./stage_2.sh
 Output: 
@@ -38,7 +43,10 @@ Compiler run successful!
 🔹 Status: 1
 🔹 Verifying Contract Code at Address...
 ✅ Verification Successful: Contract Code Detected.
+```
 
+Stage 2
+```bash
 cd ../stage_3
 ./stage_3.sh 
 Output:
@@ -73,3 +81,4 @@ Output:
 🔹 Expected Hash (Local): bfe03c2b3612715db6a036c788fbc39e0a1d4968f2c1c087378b17eea9aab500
 ✅ Test Passed: Contract Hash Matches Local Calculation.
 ----------------------------------------
+```
