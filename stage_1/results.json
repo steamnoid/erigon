@@ -1,0 +1,1 @@
+{ "blockNumber": "not applicable, since read-only", "txHash": "not applicable, since read-only", "receiverAddress": "0x0000000000000000000000000000000000000002", "decodedOutputs": { "precompileHash": "0x2b371301d100e168ccc4e6dad8f3428bf32bbc5ad9ddd9d7419da76eaf73d17a" }, "verdict": "success" }
